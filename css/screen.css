@@ -4,28 +4,130 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* BASE ========================== */
+html {
+  font-size: 1em; 
+  line-height: 1.25em; 
+  font-family: Helvetica; 
+  padding-left: .94em; 
+  padding-right: .5em;
+  }
+  
+  div {
+  text-align: center;
+  background-color: #201628;
+  margin-bottom: 1.5em;
+  }
+  
+  .resume {
+    list-style: none;
+  }
+  p {
+    padding: 1.18em 1em;
+  }
+ h1 {
+   font-size: 1.79em; 
+   line-height: 1.05em;  
+   padding-bottom: 1em;
+ }
+ 
+ h2 { 
+  font-size: 1.38em; 
+  line-height: 1.13em; 
+  padding-bottom: 1em;
+ }
+ 
+ h3 {
+   font-size: 1.29em; 
+   line-height: 1.10em;
+   padding-bottom: 1em;
+ }
+ 
+ 
+ ul {
+   padding-left: 1.18em; 
+   padding-bottom: 1em;
+   list-style: circle;
+ }
+ .media {
+   list-style: none;
+   display: inline-block;
+ }
+ 
+/* LAYOUT ======================== */
+
 nav li {
   list-style-type: none;
   text-decoration: none;
   display: inline-block;
   border-left: thin solid black;
   border-right: thin solid black;
-  border-top: thin solid black;
-  border-bottom: thin solid black;
   margin-left: 2em;
   margin-right: 2em;
-  margin-top: 2em;
-  margin-bottom: 2em;
 
 }
 
 nav a {
-  color: black;
+  color: white;
   text-decoration: none;
   padding: 2em 5em 2em 5em;
   display: block;
 }
-/* LAYOUT ======================== */
+.head {
+  padding-bottom: 2em;
+}
+
 /* MODULAR ======================= */
 /* STATE ========================= */
+ 
+@media screen and (min-width: 10em) and (max-width: 30em)
+{
+
+  nav li {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    border-left: thin solid black;
+    border-right: thin solid black;
+  }
+
+  nav a {
+    padding: 1em 2em 1em 2em;
+    display: block;
+  }
+  .pic {
+    height: 25%;
+    width: 25%;
+  }
+  .gif {
+    max-height: auto;
+    max-width: auto;
+  }
+  ul {
+   padding-left: .5em; 
+   padding-bottom: 1em;
+   padding-right: .5em;
+   list-style: circle;
+ }
+}
+@media screen and (min-width: 30em) and (max-width: 60em)
+{
+  nav li {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    border-left: thin solid black;
+    border-right: thin solid black;
+  }
+
+  nav a {
+    padding: 1em 2em 1em 2em;
+    display: block;
+  }
+}
 /* THEME ========================= */
+html {
+  background-color: #EFCA08;
+  color: #00A6A6;
+}
+nav a:hover {
+  background-color: rgb(239, 243, 235);
+  color: #170A47;
+}
