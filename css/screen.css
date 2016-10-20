@@ -48,6 +48,7 @@ html {
    padding-bottom: 1em;
    list-style: circle;
  }
+ 
  .media {
    list-style: none;
    display: inline-block;
@@ -92,14 +93,6 @@ nav a {
   nav a {
     padding: 1em 2em 1em 2em;
     display: block;
-  }
-  .pic {
-    height: 25%;
-    width: 25%;
-  }
-  .gif {
-    max-height: auto;
-    max-width: auto;
   }
   ul {
    padding-left: .5em; 
