@@ -49,9 +49,14 @@ html {
    list-style: circle;
  }
  
- .media {
+ figcaption{
+   padding-bottom: 1em;
+ }
+ 
+ img {
    list-style: none;
-   display: inline-block;
+   display: block;
+   max-width: 100%;
  }
  
 /* LAYOUT ======================== */
