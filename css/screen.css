@@ -87,7 +87,7 @@ nav a {
   max-width: 47em;
 }
 
-.media{
+.flexbox.flexwrap .media{
   display: flex;
   flex-direction: row | column;
   flex-wrap: wrap;
