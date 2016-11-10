@@ -89,11 +89,11 @@ nav a {
 
 .flexbox.flexwrap .media{
   display: flex;
-  flex-direction: row | column;
+  flex-direction: row;
   flex-wrap: wrap;
 }
 
-.gif,.pic{
+.gif , .pic{
  padding-right: 3em;
 }
 /* MODULAR ======================= */
